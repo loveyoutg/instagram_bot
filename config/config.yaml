@@ -1,0 +1,14 @@
+telegram_bot:
+  token: os.Getenv("token")
+
+instagram:
+  username: os.Getenv("username")
+  password: os.Getenv("password")
+
+database:
+  uri: os.Getenv("uri")
+#  uri: postgres://instracker:password@database/instracker
+
+dialogue: /go/app/etc/dialogue.json
+vault: /var/tmp/
+logging: /var/log/instracker/
